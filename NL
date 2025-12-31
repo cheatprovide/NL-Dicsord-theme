@@ -1,0 +1,176 @@
+/**
+ * @name NL
+ * @author Nation<3
+ * @description pretty good shit asf
+ * @authorId 1182257478549917696
+ * @version 1.0
+ * @invite Uc6AyPH8hR
+ */
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+--font: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'figtree';
+--code-font: 'SF Mono', 'Cascadia Code', 'Fira Code';
+font-weight: 450;
+--gap: 16px;
+--divider-thickness: 2px;
+--border-thickness: 1px;
+--animations: on;
+--list-item-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+--dms-icon-svg-transition: 0.4s ease;
+--border-hover-transition: 0.25s ease;
+--top-bar-height: 44px;
+--top-bar-button-position: titlebar;
+--top-bar-title-position: left;
+--subtle-top-bar-title: on;
+--custom-window-controls: on;
+--window-control-size: 12px;
+--custom-dms-icon: default;
+--dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_comment.svg');
+--dms-icon-svg-size: 85%;
+--custom-dms-background: none;
+--dms-background-image-url: url('');
+--dms-background-image-size: cover;
+--dms-background-color: transparent;
+--background-image: off;
+--background-image-url: url('');
+--transparency-tweaks: on;
+--remove-bg-layer: off;
+--panel-blur: on;
+--blur-amount: 25px;
+--bg-floating: hsla(0, 0%, 5%, 0.95);
+--custom-chatbar: separated;
+--chatbar-height: 52px;
+--small-user-panel: on;
+}
+
+:root {
+--colors: on;
+--accent-1: hsla(200, 100%, 50%, 1);
+--accent-2: hsla(200, 100%, 60%, 1);
+--accent-3: hsla(200, 85%, 45%, 1);
+--accent-4: hsla(200, 75%, 35%, 1);
+--accent-5: hsla(200, 70%, 25%, 1);
+--text-0: hsl(0, 0%, 100%);
+--text-1: hsl(0, 0%, 98%);
+--text-2: hsl(0, 0%, 85%);
+--text-3: hsl(0, 0%, 70%);
+--text-4: hsl(0, 0%, 50%);
+--text-5: hsl(0, 0%, 35%);
+--bg-1: hsla(0, 0%, 8%, 0.95);
+--bg-2: hsla(0, 0%, 5%, 0.92);
+--bg-3: hsla(0, 0%, 3%, 0.9);
+--bg-4: hsla(0, 0%, 2%, 0.85);
+--hover: hsla(200, 100%, 50%, 0.1);
+--active: hsla(200, 100%, 50%, 0.15);
+--active-2: hsla(200, 100%, 50%, 0.25);
+--message-hover: hsla(200, 100%, 50%, 0.08);
+--mention: linear-gradient(to right, hsla(200, 100%, 50%, 0.2) 40%, transparent);
+--mention-hover: linear-gradient(to right, hsla(200, 100%, 50%, 0.15) 40%, transparent);
+--reply: linear-gradient(to right, hsla(200, 80%, 45%, 0.15) 40%, transparent);
+--reply-hover: linear-gradient(to right, hsla(200, 80%, 45%, 0.1) 40%, transparent);
+--online: oklch(70% 0.13 160);
+--dnd: oklch(65% 0.14 25);
+--idle: oklch(75% 0.13 85);
+--streaming: hsla(200, 100%, 60%, 1);
+--offline: var(--text-4);
+--border-light: hsla(200, 80%, 50%, 0.08);
+--border: hsla(200, 80%, 50%, 0.12);
+--border-hover: hsla(200, 85%, 55%, 0.18);
+--button-border: hsla(200, 80%, 60%, 0.1);
+--red-1: oklch(75% 0.12 15);
+--red-2: oklch(70% 0.12 15);
+--red-3: oklch(65% 0.12 15);
+--red-4: oklch(60% 0.12 15);
+--red-5: oklch(55% 0.12 15);
+--green-1: oklch(75% 0.11 160);
+--green-2: oklch(70% 0.11 160);
+--green-3: oklch(65% 0.11 160);
+--green-4: oklch(60% 0.11 160);
+--green-5: oklch(55% 0.11 160);
+--blue-1: oklch(75% 0.1 240);
+--blue-2: oklch(70% 0.1 240);
+--blue-3: oklch(65% 0.1 240);
+--blue-4: oklch(60% 0.1 240);
+--blue-5: oklch(55% 0.1 240);
+--yellow-1: oklch(80% 0.11 85);
+--yellow-2: oklch(75% 0.11 85);
+--yellow-3: oklch(70% 0.11 85);
+--yellow-4: oklch(65% 0.11 85);
+--yellow-5: oklch(60% 0.11 85);
+}
+
+.container-1eA5EB {
+border-radius: 14px;
+margin: var(--gap);
+border: 1px solid var(--border-light);
+background: var(--bg-1);
+backdrop-filter: blur(var(--blur-amount));
+}
+
+.channelTextArea-1FufC0 {
+border-radius: 20px;
+background: var(--bg-2);
+border: 1px solid var(--border);
+backdrop-filter: blur(var(--blur-amount));
+}
+
+.message-2CShn3 {
+border-radius: 16px;
+margin: 4px 8px;
+background: var(--bg-2);
+border: 1px solid var(--border-light);
+backdrop-filter: blur(15px);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+background: linear-gradient(135deg, var(--accent-3), var(--accent-4));
+border: none;
+border-radius: 12px;
+font-weight: 600;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+background: linear-gradient(135deg, var(--accent-2), var(--accent-3));
+transform: translateY(-1px);
+}
+
+.scrollbar-2rkZSL {
+width: 6px;
+}
+
+.scrollbar-2rkZSL .thumb-2JwNFC {
+background: var(--accent-3);
+border-radius: 3px;
+}
+
+.avatar-2V4_Tl {
+border-radius: 50%;
+border: 2px solid var(--border-light);
+}
+
+.containerDefault-3TQ5YN .wrapper-2jXpOf:hover {
+background: var(--hover);
+border-radius: 10px;
+}
+
+.selected-345RB0 .item-2GWPIy {
+background: linear-gradient(135deg, var(--accent-3), var(--accent-4));
+color: var(--text-0);
+border-radius: 10px;
+}
+
+.modal-3c3bKg {
+border-radius: 18px;
+border: 1px solid var(--border);
+backdrop-filter: blur(30px);
+background: var(--bg-1);
+}
+
+@media (max-width: 1200px) {
+body {
+--gap: 12px;
+--blur-amount: 20px;
+}
+}
